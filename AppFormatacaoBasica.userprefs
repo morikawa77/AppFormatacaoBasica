@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{FA80CEC0-4E36-4564-B014-6453EB9214AF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppFormatacaoBasicaPage.xaml">
+    <Files>
+      <File FileName="AppFormatacaoBasicaPage.xaml" Line="2" Column="237" />
+      <File FileName="AppFormatacaoBasicaPage.xaml.cs" Line="44" Column="61" />
+      <File FileName="Model/Formulario.cs" Line="11" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AppFormatacaoBasica.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="AppFormatacaoBasicaPage.xaml" line="14" offsetX="-1" offsetY="-1" expression="CollumnDefinition" liveUpdate="False" />
+    <Watch file="AppFormatacaoBasicaPage.xaml" line="14" offsetX="-1" offsetY="-1" expression="Comprimento" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AppFormatacaoBasica.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F3EE6313-FCFE-4069-A29A-1413888420F9">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.AppFormatacaoBasica.iOS>
+</Properties>

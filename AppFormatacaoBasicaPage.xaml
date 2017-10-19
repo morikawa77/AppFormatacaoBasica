@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:AppFormatacaoBasica" x:Class="AppFormatacaoBasica.AppFormatacaoBasicaPage" BackgroundColor="DimGray">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80" /> <!-- Altura fixa -->
+            <RowDefinition Height="*" /> <!-- Altura relativa ou proporcional -->
+            <RowDefinition Height="auto" /> <!-- Altura automática -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="16" /> <!-- Comprimento fixo -->
+            <ColumnDefinition Width="*" /> <!-- Comprimento relativo ou proporcional -->
+            <ColumnDefinition Width="auto" /> <!-- Comprimento automatico -->
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblTitulo" HorizontalOptions="CenterAndExpand" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Text="App Formatação Básica"/>
+        <!-- *Span junta da posição que está da esquerda p/ direita - não pode ultrapassar o número de linhas ou colunas definido -->
+        <Image x:Name="imgIcone" Grid.Row="1" Grid.Column="0" Source="http://via.placeholder.com/32x32" />
+        <StackLayout Grid.Row="1" Grid.Column="1">
+            <Label x:Name="lblFormulario" Text="Formulário" />
+            <Entry x:Name="txtNome" Placeholder="Entre com seu nome" />
+            <Entry x:Name="txtEmail" Placeholder="Entre com seu e-mail" />
+            <Entry x:Name="txtTelefone" Placeholder="Entre com seu telefone" Keyboard="Numeric" />
+            <Picker x:Name="picGenero" Title="Escolha o gênero" />
+            <DatePicker x:Name="dpicDataNascimento" /> 
+            <TimePicker x:Name="tpicData"/>
+            <Editor x:Name="txtInformacao" />
+        </StackLayout>
+        <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <Button x:Name="btnLimpar" Text="Limpar" Clicked="btnLimpar_Clicked"/>
+            <Button x:Name="Exibir" Text="Exibir" Clicked="Exibir_Clicked"/>
+        </StackLayout>
+        <Label Grid.Row="2" Grid.Column="2" Text="Menu" />
+    </Grid>
+</ContentPage>
